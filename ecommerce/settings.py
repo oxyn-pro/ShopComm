@@ -26,7 +26,7 @@ SECRET_KEY = 'o)%b)%-7x36(ovd4d$9_pwpu*7@d%z0_qpemb2!phw1h^(swwn'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    
+    "quiet-sands-71880.herokuapp.com"
 ]
 
 
