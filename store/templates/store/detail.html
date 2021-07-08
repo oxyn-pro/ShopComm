@@ -1,0 +1,20 @@
+{% extends 'store/main.html' %}
+
+{% block content %}
+
+    <div class="col">
+        <div class="card" style="width: 50rem;">
+            <img src="{{product.imageUrl}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{product.name}}</h5>
+                <p class="card-text">${{product.price|floatformat:2}}</p>
+                <dl>
+                    <dt>Description</dt>
+                    <dd>Description of the product....</dd>
+                </dl>
+                <button data-product={{product.id}} data-action="add" class="btn btn-primary add-btn update-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
