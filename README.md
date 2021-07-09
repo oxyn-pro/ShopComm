@@ -10,7 +10,7 @@ https://quiet-sands-71880.herokuapp.com/
 - An optimized cookie management system, which means that the selected items of an unauthenticated user (also known as a guest user) will be stored in the device's web browser memory (cookies). After navigating to the Shipping Information page, the user's cookies will be converted to JavaScript objects, then to Python objects, and ultimately stored in the database according to the user supplied username and email address.
 - In this project there is a connection between each user and customer, which means that each created user will have its own customer, they are connected with "OneToOneField" (Django's model).
 
-# Super User
+# SuperUser
 Yes, in this project there can be created the superuser (thanks to Django). SuperUser has right to manage almost everything related to the internal information:
 - SuperUser can register and add new items (can add images, descriptions, and id of the product)
 - SuperUser edit info regarding the order items
