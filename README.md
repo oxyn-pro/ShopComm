@@ -1,5 +1,4 @@
 # ShopComm
-
 The link of the website that has been deployed to the Heroku:
 https://quiet-sands-71880.herokuapp.com/
 
