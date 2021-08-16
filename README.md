@@ -18,9 +18,9 @@ Yes, in this project there can be created the superuser (thanks to Django). Supe
 - SuperUser can delete users (customer is connected to the user with OneToOneField, which means that if the user is deleted its customer will be also deleted)
 
 # API management
-In this project, I have used "Tastypie" a web service API framework for Django, and Fetch API for JavaScript in order to control Event Handlers.
-- .../api/products -> Will render out the JSON format of all existing products info in the product catalog
-- .../api/product/<product id> -> Will render out the JSON format of the particular product's info in the product catalog
+#### In this project, I have used "Tastypie" a web service API framework for Django, and Fetch API for JavaScript in order to control Event Handlers:
+    - 127.0.0.1:8000/api/products               -> Will render out the JSON format of all existing products info in the product catalog
+    - 127.0.0.1:8000/api/product/<product id>   -> Will render out the JSON format of the particular product's info in the product catalog
 
 Fetch API:
   In order to control event handlers, I used the fetch API "Post" method in order to get CSRF Token and particular Action ("add, remove" to understand better look "static/js/cart.js" file)
