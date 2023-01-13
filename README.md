@@ -1,8 +1,5 @@
 # ShopComm
 
-The link of the website that has been deployed to the Heroku:
-https://quiet-sands-71880.herokuapp.com/
-
 # Project Capabilities
 - Any type of user can access the website and "add to cart" any items / products existing in the product catalog
 - Any type of user can be: authenticated user, non-authenticated user (aka guest user)
